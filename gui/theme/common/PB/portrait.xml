@@ -110,7 +110,7 @@
 		<style name="main_button_rename_c">
 			<image resource="main_button_rename_c"/>
 		</style>
-		
+
 		<style name="main_button_settings">
 			<highlight color="%highlight_color%"/>
 			<font resource="font_pb" color="%text_button_color%"/>
@@ -1234,6 +1234,7 @@
 			<template name="progress_bar"/>
 
 			<button style="main_button_half_height">
+				<condition var1="pb_reboot_recovery" op="!=" var2="1"/>
 				<condition var1="tw_has_cancel" var2="1"/>
 				<placement x="%center_x%" y="%row21a_y%"/>
 				<text>{@cancel_btn=Cancel}</text>
@@ -3655,6 +3656,12 @@
 				<listitem name="{@rev_navbar_chk=Reversed navbar layout}">
 					<data variable="tw_samsung_navbar"/>
 				</listitem>
+				<listitem name="{@show_free_sdmb=Show Free SD Mb}">
+					<data variable="tw_sd_free"/>
+				</listitem>
+				<listitem name="{@use_aromafm=Use Aroma File Manager}">
+					<data variable="aromafm"/>
+				</listitem>
 				<listitem name="{@simact_chk=Simulate actions for theme testing}">
 					<data variable="tw_simulate_actions"/>
 				</listitem>
@@ -3665,12 +3672,6 @@
 				<listitem name="{@sha2_chk=Use SHA2 for hashing}">
 					<condition var1="tw_no_sha2" var2="0"/>
 					<data variable="tw_use_sha2"/>
-				</listitem>
-				<listitem name="{@show_free_sdmb=Show Free SD Mb}">
-					<data variable="tw_sd_free"/>
-				</listitem>
-				<listitem name="{@use_aromafm=Use Aroma File Manager}">
-					<data variable="aromafm"/>
 				</listitem>
 			</listbox>
 
@@ -4489,7 +4490,7 @@
 					<action function="set">tw_back=tools</action>
 					<action function="set">tw_filename=/sdcard/PBRP/tools/magisk.zip</action>
 					<action function="set">tw_action=queuezip</action>
-					<action function="set">_install_built_in_zip=1</action>
+					<action function="set">tw_install_built_in_zip=1</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
 					<action function="set">tw_action2_param=flash_zip</action>
@@ -6233,7 +6234,7 @@
 				<placement x="3" y="3" w="1074" h="1914"/>
 			</fill>
 			
- <image>
+			<image>
 				<image resource="splashlogo"/>
 				<placement x="540" y="900" placement="4"/>
 			</image>
@@ -6267,6 +6268,7 @@
 				<touch key="power+voldown" />
 				<action function="screenshot" />
 			</action>
+
 			<action>
 				<touch key="volup" />
 				<action function="flashlight" />
@@ -6408,6 +6410,21 @@
 					<action function="set">tw_fm_text1={@fm_zipping=Zipping}</action>
 					<action function="set">pb_filemanager_unzip=2</action>
 					<action function="page">zipname</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<conditions>
+					<condition var1="tw_fm_isfolder" var2="1"/>
+				</conditions>
+				<placement x="%center_x%" y="%row12a_y%"/>
+				<text>{@fm_pb_make=Make Folder}</text>
+				<actions>
+					<action function="set">tw_filemanager_command=mkdir</action>
+					<action function="set">tw_fm_text1={@fm_pb_mk=Making Folder}</action>
+					<action function="set">pb_filemanager_unzip=3</action>
+					<action function="set">tw_include_text3=0</action>
+					<action function="page">mkd</action>
 				</actions>
 			</button>
 

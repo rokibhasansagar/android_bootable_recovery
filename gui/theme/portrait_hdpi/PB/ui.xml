@@ -22,9 +22,9 @@
 		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="32"/>
 		<font name="font_xl" filename="RobotoCondensed-Regular.ttf" size="75"/>
 		<font name="fixed" filename="RobotoCondensed-Regular.ttf" size="30"/>
-		<font name="font_pb" filename="pb.ttf" size="65"/>
-		<font name="font_pb_small" filename="pb.ttf" size="50"/>
-		<font name="font_pb_tools" filename="pb.ttf" size="45"/>
+		<font name="font_pb" filename="RobotoCondensed-Regular.ttf" size="65"/>
+		<font name="font_pb_small" filename="RobotoCondensed-Regular.ttf" size="50"/>
+		<font name="font_pb_tools" filename="RobotoCondensed-Regular.ttf" size="45"/>
 		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="60"/>
 		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="42"/>
 		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="28"/>
