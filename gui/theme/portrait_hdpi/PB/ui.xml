@@ -14,20 +14,20 @@
 	</include>
 
 	<resources>
-	    <font name="font_exl" filename="RobotoCondensed-Regular.ttf" size="59"/>
-		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="45"/>
-		<font name="font_about" filename="RobotoCondensed-Regular.ttf" size="37"/>
-		<font name="font_m" filename="RobotoCondensed-Regular.ttf" size="30"/>
-		<font name="font_n" filename="RobotoCondensed-Regular.ttf" size="20"/>
-		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="32"/>
-		<font name="font_xl" filename="RobotoCondensed-Regular.ttf" size="75"/>
-		<font name="fixed" filename="RobotoCondensed-Regular.ttf" size="30"/>
-		<font name="font_pb" filename="RobotoCondensed-Regular.ttf" size="65"/>
-		<font name="font_pb_small" filename="RobotoCondensed-Regular.ttf" size="50"/>
-		<font name="font_pb_tools" filename="RobotoCondensed-Regular.ttf" size="45"/>
-		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="60"/>
-		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="42"/>
-		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="28"/>
+	    <font name="font_exl" filename="GoogleSans-Regular.ttf" size="59"/>
+		<font name="font_l" filename="GoogleSans-Regular.ttf" size="45"/>
+		<font name="font_about" filename="GoogleSans-Regular.ttf" size="37"/>
+		<font name="font_m" filename="GoogleSans-Regular.ttf" size="30"/>
+		<font name="font_n" filename="GoogleSans-Regular.ttf" size="20"/>
+		<font name="font_s" filename="GoogleSans-Regular.ttf" size="32"/>
+		<font name="font_xl" filename="GoogleSans-Regular.ttf" size="75"/>
+		<font name="fixed" filename="GoogleSans-Regular.ttf" size="30"/>
+		<font name="font_pb" filename="GoogleSans-Regular.ttf" size="65"/>
+		<font name="font_pb_small" filename="GoogleSans-Regular.ttf" size="50"/>
+		<font name="font_pb_tools" filename="GoogleSans-Regular.ttf" size="45"/>
+		<font name="keylabel" filename="GoogleSans-Regular.ttf" size="60"/>
+		<font name="keylabel-small" filename="GoogleSans-Regular.ttf" size="42"/>
+		<font name="keylabel-longpress" filename="GoogleSans-Regular.ttf" size="28"/>
 
 		<image name="logo" filename="logo" retainaspect="1"/>
 		<image name="pb_image" filename="pb_image" retainaspect="1"/>
