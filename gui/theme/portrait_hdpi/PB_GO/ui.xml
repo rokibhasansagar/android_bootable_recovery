@@ -125,6 +125,7 @@
 		<image name="tool_button_removepin" filename="tool_button_removepin" retainaspect="1"/>
 		<image name="tool_button_mtp" filename="tool_button_mtp" retainaspect="1"/>
 		<image name="tool_button_fpscanner" filename="tool_button_fpscanner" retainaspect="1"/>
+		<image name="tool_button_mmr" filename="tool_button_mmr" retainaspect="1"/>
 		<image name="tool_button_dmverity" filename="tool_button_dmverity" retainaspect="1"/>
 		<image name="tool_button_cam2ap" filename="tool_button_cam2ap" retainaspect="1"/>
 		<image name="tool_button_appdelete" filename="tool_button_appdelete" retainaspect="1"/>

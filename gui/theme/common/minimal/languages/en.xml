@@ -748,8 +748,8 @@
 		<string name="Aroma_FM_btn">Aroma FM</string>
 		<string name="Aroma_FM_text">Aroma FM will be installed.</string>
 		<string name="Aroma_FM_confirm">Try to install it?</string>
-		<string name="FP_Scanner_btn">FP Scanner</string>
-		<string name="FP_Scanner_text">FP scanner will be installed.</string>
+		<string name="FP_Scanner_btn">FP Scanner Fix</string>
+		<string name="FP_Scanner_text">FP Scanner Fix will be installed.</string>
 		<string name="FP_Scanner_confirm">Try to install it?</string>
 		<string name="Pin/Pass_Remover_btn">Pin/Pass Remover</string>
 		<string name="Pin/Pass_Remover_text">Pin/Pass Remover will be installed.</string>
@@ -769,17 +769,20 @@
 		<string name="MTP_Fix_btn">MTP Fix</string>
 		<string name="MTP_Fix_text">MTP Fix will be installed.</string>
 		<string name="MTP_Fix_confirm">Try to install it?</string>
+		<string name="MMR_btn">Magisk Manager</string>
+		<string name="MMR_text">Magisk Manager Recovery will be installed.</string>
+		<string name="MMR_confirm">Try to install it?</string>
 		<string name="DFE_btn">DFE</string>
 		<string name="Dfe_text">DFE will be installed.</string>
 		<string name="Dfe_confirm">Try to install it?</string>
-		<string name="Dm_Verity_btn">Dm Verity</string>
-		<string name="Dm_Verity_text">Dm Verity will be installed.</string>
+		<string name="Dm_Verity_btn">DM Verity and Forced Encryption remover</string>
+		<string name="Dm_Verity_text">DM Verity and Forced Encryption remover will be installed.</string>
 		<string name="Dm_Verity_confirm">Try to install it?</string>
 		<string name="use_aromafm">Use Aroma File Manager</string>
 		
 		<!--PBRP Themes-->
 		<string name="pbthemes">Themes</string>
-	    <string name="pbthemes_hdr">Themes</string>
+		<string name="pbthemes_hdr">Themes</string>
 		
 		<string name="yellow_btn">yellow</string>
 		<string name="yellow_text">yellow PBRP theme will be installed</string>			
