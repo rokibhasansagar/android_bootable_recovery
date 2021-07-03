@@ -139,8 +139,15 @@ define PB_UNSUPPORTED_RESOLUTION_ERR
 ****************************************************************************
 endef
 
-TWRP_RES := $(LOCAL_PATH)/theme/common/fonts
-TWRP_RES += $(LOCAL_PATH)/theme/common/languages
+ifeq ($(PB_ENGLISH), true)
+TWRP_RES := $(LOCAL_PATH)/theme/common/minimal/fonts
+TWRP_RES += $(LOCAL_PATH)/theme/common/minimal/languages
+else
+TWRP_RES := $(LOCAL_PATH)/theme/common/minimal/fonts
+TWRP_RES += $(LOCAL_PATH)/theme/common/full/fonts
+TWRP_RES += $(LOCAL_PATH)/theme/common/minimal/languages
+TWRP_RES += $(LOCAL_PATH)/theme/common/full/languages
+endif
 
 ifeq ($(TW_CUSTOM_THEME),)
     ifeq ($(TW_THEME),)
